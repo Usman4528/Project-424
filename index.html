@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- External icons -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Page Title -->
+    <title>Portfolio Website Complete</title>
+</head>
+<body>
+    <!-- Header Navigation -->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <header>
+                <a href="#" class="nav__logo"> 
+                    <img src="..\images\assets\img\logo.jpg" alt= "Usman Logo" style="height: 45px;" />
+                </a>
+            </header>
+            <main class="nav__right">
+                <span class="nav__message">Welcome to my website!</span>
+            </main>
+
+            <section class="nav__menu" id="nav-menu">
+                <nav class="nav__list">
+                    <article class="nav__item"><a href="#home" class="nav__link active-link">Home</a></article>
+                    <article class="nav__item"><a href="#about" class="nav__link">About</a></article>
+                    <article class="nav__item"><a href="#skills" class="nav__link">Skills</a></article>
+                    <article class="nav__item"><a href="#work" class="nav__link">Work</a></article>
+                    <article class="nav__item"><a href="#contact" class="nav__link">Contact</a></article>
+                </nav>
+            </section>
+
+                <!-- Toggle for responsive design -->
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+      <!-- Main content -->
+<main class="l-main">
+
+    <!-- Home Section -->
+    <section class="home bd-grid" id="home">
+        
+        <!-- Home Data -->
+        <header class="home__data">
+            <h1 class="home__title">Hi,<br>I am <span class="home__title-color">Usman</span><br> Web Designer</h1>
+            <a href="#contact" class="button">Contact</a>
+        </header>
+
+        <!-- Home Social -->
+        <nav class="home__social">
+            <a href="#" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+            <a href="#" class="home__social-icon"><i class='bx bxl-facebook'></i></a>
+            <a href="#" class="home__social-icon"><i class='bx bxl-github'></i></a>
+        </nav>
+        
+        <!-- Home Video -->
+        <figure class="home__img">
+            <video class="home__video" autoplay loop muted>
+                <source src="../images/vid.mp4" type="video/mp4">
+            </video>
+        </figure>
+
+    </section>
+
+</main>
+
+
+           <!-- About Section -->
+<section class="about section" id="about">
+    <h2 class="section-title">About</h2>
+
+    <!-- About Container -->
+    <section class="about__container bd-grid">
+        
+        <!-- About Image -->
+        <aside class="about__img">
+            <img src="..\images\assets\img\about.jpg" alt="About Image">
+        </aside>
+        
+        <!-- About Description -->
+        <article>
+            <h2 class="about__subtitle">I am Usman</h2>
+            <p class="about__text">"Crafting stunning, user-friendly websites that blend innovation with functionality. Let's transform your ideas into digital masterpieces, ensuring seamless experiences and captivating designs. Get in touch to make your online presence truly shine."</p>
+        </article>
+        
+    </section>
+</section>
+
+
+           <!-- Skills Section -->
+<section class="skills section" id="skills">
+    <h2 class="section-title">Skills</h2>
+
+    <!-- Skills Container -->
+    <section class="skills__container bd-grid">
+        
+        <!-- Skills Description -->
+        <article>
+            <h2 class="skills__subtitle">Professional Skills</h2>
+            <p class="skills__text">"Designing unique websites with precision and creativity. I specialize in turning complex ideas into sleek, modern digital platforms. Let's build a website that not only looks great but also functions flawlessly. Contact me to bring your vision to life."</p>
+            
+            <!-- Skill Data - HTML5 -->
+            <header class="skills__data">
+                <span class="skills__names">
+                    <i class='bx bxl-html5 skills__icon'></i>
+                    <span class="skills__name">HTML5</span>
+                </span>
+                <span class="skills__bar skills__html"></span>
+                <span class="skills__percentage">95%</span>
+            </header>
+
+            <!-- Skill Data - CSS3 -->
+            <header class="skills__data">
+                <span class="skills__names">
+                    <i class='bx bxl-css3 skills__icon'></i>
+                    <span class="skills__name">CSS3</span>
+                </span>
+                <span class="skills__bar skills__css"></span>
+                <span class="skills__percentage">85%</span>
+            </header>
+
+            <!-- Skill Data - JavaScript -->
+            <header class="skills__data">
+                <span class="skills__names">
+                    <i class='bx bxl-javascript skills__icon'></i>
+                    <span class="skills__name">JavaScript</span>
+                </span>
+                <span class="skills__bar skills__js"></span>
+                <span class="skills__percentage">65%</span>
+            </header>
+
+            <!-- Skill Data - UX/UI -->
+            <header class="skills__data">
+                <span class="skills__names">
+                    <i class='bx bxs-paint skills__icon'></i>
+                    <span class="skills__name">UX/UI</span>
+                </span>
+                <span class="skills__bar skills__ux"></span>
+                <span class="skills__percentage">85%</span>
+            </header>
+        </article>
+        
+        <!-- Skills Image -->
+        <aside>
+            <img src="..\images\assets\img\work3.jpg" alt="Skills Image" class="skills__img">
+        </aside>
+    </section>
+</section>
+
+
+            <!-- Work Section -->
+            <section class="work section" id="work">
+                <h2 class="section-title">Work</h2>
+                <div class="work__container bd-grid">
+                    <a href="#" class="work__img">
+                        <img src="../images/assets/img/work1.jpg" alt="Work 1">
+                    </a>
+                    <a href="#" class="work__img">
+                        <img src="../images/assets/img/work2.jpg" alt="Work 2">
+                    </a>
+                    <a href="#" class="work__img">
+                        <img src="../images/assets/img/work3.jpg" alt="Work 3">
+                    </a>
+                    <a href="#" class="work__img">
+                        <img src="../images/assets/img/work4.jpg" alt="Work 4">
+                    </a>
+                    <a href="#" class="work__img">
+                        <img src="../images/assets/img/work5.jpg" alt="Work 5">
+                    </a>
+                    <a href="#" class="work__img">
+                        <img src="../images/assets/img/work6.jpg" alt="Work 6">
+                    </a>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+                <div class="contact__container bd-grid">
+                    <form action="#" class="contact__form" id="contact-form">
+                        <input type="text" placeholder="Name" class="contact__input" id="name-input" required>
+                        <input type="email" placeholder="Email" class="contact__input" id="email-input" required>
+                        <textarea placeholder="Your message" cols="30" rows="5" class="contact__input" id="message-input" required></textarea>
+                        <input type="submit" value="Send" class="contact__button button" id="submit-button">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer Section -->
+        <footer class="footer">
+            <p class="footer__title">Usman</p>
+            <div class="footer__social">
+                <a href="#" class="footer__icon"><i class='bx bxl-facebook'></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-instagram'></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-twitter'></i></a>
+            </div>
+            <p class="footer__copy">&#169; Comp 424. All rights reserved.</p>
+        </footer>
+
+        <!-- Scripts -->
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="../images/main.js"></script>
+
+        <!-- JavaScript to prevent form reloading -->
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                const form = document.querySelector("#contact-form");
+                form.addEventListener("submit", function(event) {
+                    event.preventDefault(); // Prevent form reloading
+
+                    const name = document.querySelector("#name-input").value;
+                    const email = document.querySelector("#email-input").value;
+                    const message = document.querySelector("#message-input").value;
+// Show a prompt with the form data
+alert(`Form Submitted!\n\nName: ${name}\nEmail: ${email}\nMessage: ${message}`);
+
+// Optional: reset the form to clear inputs
+form.reset();
+});
+});
+</script>
+</body>
+</html>
